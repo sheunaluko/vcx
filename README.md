@@ -1,8 +1,8 @@
 # Adapted from [Web Extension Starter](https://github.com/ymdevs/Web-Extension-Starter) 
 
-This is a Chrome Extension for amazing chrome hacking (filtering request and repsonse headers, communicating with nodejs backend, satisfying your curiosity, etc...). 
+This is a Chrome Extension for **amazing chrome hacking** (filtering request and repsonse headers, communicating with nodejs backend, satisfying your curiosity, etc...). 
 
-It is built and extended using Typescript, React, Redux, and will soon support an asynchronous websocket based communication protocol which will allow external clients to acces chrome internal functionality. 
+It is built and extended using **Typescript, React, Redux,** and will soon support an asynchronous websocket based communication protocol which will allow external clients to acces chrome internal functionality. 
 
 See [Web Extension Starter](https://github.com/ymdevs/Web-Extension-Starter) for original project specification. Source code has been heavily modified as described above. 
 
