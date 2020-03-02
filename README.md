@@ -10,19 +10,17 @@ It is built and extended using Typescript, React, Redux, and will soon support a
 
 See [Web Extension Starter](https://github.com/ymdevs/Web-Extension-Starter) for original project specification. Source code has been heavily modified as described above. 
 
-## Good to know before using:
+### Good to know before using:
 * [Typescript](https://www.typescriptlang.org/)
 * [React](https://reactjs.org/)
 * [redux](https://redux.js.org/)
-* [styled-components](https://www.styled-components.com/)
 
-## Requirements:
+### Requirements:
 * [NodeJS](https://nodejs.org/en/) - Javascript runtime
-* [VSCode](https://code.visualstudio.com/) - Recomended editor
 * [Chrome](https://www.google.com/chrome/) or [Firefox](https://www.mozilla.org/en-US/firefox/) - Web browser
 
-## How to run:
-### In terminal or command prompt
+### How to run:
+#### In terminal or command prompt
 
 ```
 install dependencies
