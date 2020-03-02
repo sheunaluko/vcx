@@ -4,9 +4,11 @@
 
 </div>
 
-This is a Chrome Extension for amazing chrome hacking (filtering request and repsonse headers, communicating with nodejs backend, satisfying your curiosity, etc...)
+This is a Chrome Extension for amazing chrome hacking (filtering request and repsonse headers, communicating with nodejs backend, satisfying your curiosity, etc...). 
 
-See [Web Extension Starter](https://github.com/ymdevs/Web-Extension-Starter) for original project specification, as mentioned above. Source code has been heavily modified 
+It is built and extended using Typescript, React, Redux, and will soon support an asynchronous websocket based communication protocol which will allow external clients to acces chrome internal functionality. 
+
+See [Web Extension Starter](https://github.com/ymdevs/Web-Extension-Starter) for original project specification. Source code has been heavily modified as described above. 
 
 ## Good to know before using:
 * [Typescript](https://www.typescriptlang.org/)
