@@ -1,18 +1,18 @@
 <div align="center">
 
-# Web Extension Starter
+# Adapted from [Web Extension Starter](https://github.com/ymdevs/Web-Extension-Starter) 
 
 </div>
 
-This project containes a minimal setup for developing a performant and well structured web extension. The extension contains a demonstration counter that is displayed on the popup and options pages as well as any open tab. 
+This is a Chrome Extension for amazing chrome hacking (filtering request and repsonse headers, communicating with nodejs backend, satisfying your curiosity, etc...)
+
+See [Web Extension Starter](https://github.com/ymdevs/Web-Extension-Starter) for original project specification, as mentioned above. Source code has been heavily modified 
 
 ## Good to know before using:
 * [Typescript](https://www.typescriptlang.org/)
 * [React](https://reactjs.org/)
 * [redux](https://redux.js.org/)
 * [styled-components](https://www.styled-components.com/)
-
-
 
 ## Requirements:
 * [NodeJS](https://nodejs.org/en/) - Javascript runtime
