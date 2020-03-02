@@ -1,0 +1,45 @@
+{
+	"name": "VCX",
+	"author": "Sheun Aluko",
+	"version": "1.0.0",
+	"description": "Custom Development Web Extension with Asynchronous Integration with @sheunaluko/vcs", 
+	"icons": {
+		"16": "assets/vcx_16.png" , 
+		"48": "assets/vcx_48.png" , 
+		"128" : "assets/vcx_128.png" 
+	},
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"permissions": [
+		"activeTab",
+		"alarms",
+		"bookmarks",
+		"cookies",
+		"storage",
+		"tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"*://*/*"
+	],
+	"manifest_version": 2,
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": true
+	},
+	"browser_action": {
+		"default_title": "VCX Starter",
+		"default_icon": "assets/vcx_48.png", 
+		"default_popup": "popup.html"
+	},
+	"options_ui": {
+		"page": "options.html",
+		"open_in_tab": true
+	},
+	"content_scripts": [
+		{
+			"js": ["main.js"], 
+			"matches": ["*://*/*"]
+		}
+	]
+}
