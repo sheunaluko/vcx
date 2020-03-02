@@ -1,8 +1,4 @@
-<div align="center">
-
 # Adapted from [Web Extension Starter](https://github.com/ymdevs/Web-Extension-Starter) 
-
-</div>
 
 This is a Chrome Extension for amazing chrome hacking (filtering request and repsonse headers, communicating with nodejs backend, satisfying your curiosity, etc...). 
 
